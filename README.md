@@ -42,9 +42,9 @@ FROM '/var/lib/postgresql/12/cif.csv'
 DELIMITER ';'
 CSV HEADER;
 ```
+```
 COPY transaction(trx_id,trx_date,account_from,amount,account_to,trx_channel)
 FROM '/var/lib/postgresql/12/transaction.csv'
 DELIMITER ';'
 CSV HEADER;
 ```
-
